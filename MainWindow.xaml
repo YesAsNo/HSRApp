@@ -8,7 +8,47 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate x:Key="ImageGridView_ItemTemplate" x:DataType="local:ImageFileInfo">
+                <Grid Height="300" Width="300" Margin="8">
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <Image x:Name="ItemImage" Source="Assets/StoreLogo.png" Stretch="Uniform"/>
+                    
+                    <StackPanel Orientation="Vertical" Grid.Row="1">
+                        <TextBlock Text="{x:Bind ImageTitle}" HorizontalAlignment="Center" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Text="{x:Bind ImageFileType}" HorizontalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}"/>
+                            <TextBlock Text="{x:Bind ImageDimensions}" HorizontalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}"
+                                       Margin="8,0,0,0"/>
+                        </StackPanel>
+                        <RatingControl Value="{x:Bind ImageRating}" IsReadOnly="True"/>
+                    </StackPanel>
+
+                </Grid>
+            </DataTemplate>
+            <Style x:Key="TemplateStyle" TargetType="GridViewItem">
+                <Setter Property="Background" Value="#ecdafa"/>
+                <Setter Property="Margin" Value="8"/>
+            </Style>
+            <ItemsPanelTemplate x:Key="MainPanelTemplate">
+                
+                <ItemsWrapGrid Orientation="Horizontal" HorizontalAlignment="Center"/>
+                
+            </ItemsPanelTemplate>
+        </Grid.Resources>
+        <GridView x:Name="ImageGridView"
+                  ItemTemplate="{StaticResource ImageGridView_ItemTemplate}"
+                  Background="#decbec"
+                  ItemContainerStyle="{StaticResource TemplateStyle}"
+                  ItemsPanel="{StaticResource MainPanelTemplate}"
+                  ContainerContentChanging="ImageGridView_ContainerContentChanging"
+                  ItemsSource="{x:Bind Images}"/>
+    </Grid>
+    
 </Window>
