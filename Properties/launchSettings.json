@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HSRApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HSRApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
