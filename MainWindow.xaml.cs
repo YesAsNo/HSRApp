@@ -31,54 +31,11 @@ namespace HSRApp
         public MainWindow()
         {
             this.InitializeComponent();
-            GetItemsAsync();
         }
-        
-        public ObservableCollection<ImageFileInfo> Images { get; } = new ObservableCollection<ImageFileInfo>();
 
-        public async Task GetItemsAsync()
+        private void CloseTab(TabView sender, TabViewTabCloseRequestedEventArgs args)
         {
-            StorageFolder MainFolder = Package.Current.InstalledLocation;
-            StorageFolder ImgFolder = await MainFolder.GetFolderAsync("Assets\\Samples");
-            var result = ImgFolder.CreateFileQueryWithOptions(new QueryOptions());
-            IReadOnlyList<StorageFile> ImgExamples = await result.GetFilesAsync();
-
-            foreach (StorageFile file in ImgExamples) {
-                Images.Add(await LoadImageInfoAsync(file));
-                    }
-        }
-
-        public async static Task<ImageFileInfo> LoadImageInfoAsync(StorageFile file)
-        {
-            var properties = await file.Properties.GetImagePropertiesAsync();
-            ImageFileInfo info = new(properties, file, file.DisplayName, file.DisplayType);
-            return info;
-        }
-
-        private void ImageGridView_ContainerContentChanging(ListViewBase sender, ContainerContentChangingEventArgs e) {
-            if (e.InRecycleQueue)
-            {
-                var templateRoute = e.ItemContainer.ContentTemplateRoot as Grid;
-                var image = templateRoute.FindName("ItemImage") as Image;
-                image.Source = null;
-            }
-
-            if (e.Phase == 0)
-            {
-                e.RegisterUpdateCallback(ShowImage);
-                e.Handled = true;
-            }
-        }
-
-        private async void ShowImage(ListViewBase sender, ContainerContentChangingEventArgs e)
-        {
-            if (e.Phase == 1)
-            {
-                var templateRoute = e.ItemContainer.ContentTemplateRoot as Grid;
-                var image = templateRoute.FindName("ItemImage") as Image;
-                var item = e.Item as ImageFileInfo;
-                image.Source = await item.GetImageThumbnailAsync();
-            }
+            sender.TabItems.Remove(args.Tab);
         }
     }
 }

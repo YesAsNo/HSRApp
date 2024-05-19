@@ -224,49 +224,59 @@ namespace HSRApp.HSRApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[20];
+            _typeNameTable = new string[25];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "Microsoft.UI.Xaml.Controls.RatingControl";
+            _typeNameTable[4] = "Microsoft.UI.Xaml.Controls.TabView";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[6] = "Double";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "Int32";
-            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.RatingItemInfo";
-            _typeNameTable[10] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[11] = "HSRApp.MainWindow";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[13] = "System.Collections.ObjectModel.ObservableCollection`1<HSRApp.ImageFileInfo>";
-            _typeNameTable[14] = "System.Collections.ObjectModel.Collection`1<HSRApp.ImageFileInfo>";
-            _typeNameTable[15] = "HSRApp.ImageFileInfo";
-            _typeNameTable[16] = "Windows.Storage.StorageFile";
-            _typeNameTable[17] = "Windows.Storage.FileProperties.ImageProperties";
-            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[19] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[6] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.TabViewWidthMode";
+            _typeNameTable[8] = "System.Enum";
+            _typeNameTable[9] = "System.ValueType";
+            _typeNameTable[10] = "System.Windows.Input.ICommand";
+            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode";
+            _typeNameTable[12] = "Int32";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.TabViewItem";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.ListViewItem";
+            _typeNameTable[17] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[21] = "HSRApp.MainWindow";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[20];
+            _typeTable = new global::System.Type[25];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::Microsoft.UI.Xaml.Controls.RatingControl);
+            _typeTable[4] = typeof(global::Microsoft.UI.Xaml.Controls.TabView);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[6] = typeof(global::System.Double);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::System.Int32);
-            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.RatingItemInfo);
-            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[11] = typeof(global::HSRApp.MainWindow);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[13] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::HSRApp.ImageFileInfo>);
-            _typeTable[14] = typeof(global::System.Collections.ObjectModel.Collection<global::HSRApp.ImageFileInfo>);
-            _typeTable[15] = typeof(global::HSRApp.ImageFileInfo);
-            _typeTable[16] = typeof(global::Windows.Storage.StorageFile);
-            _typeTable[17] = typeof(global::Windows.Storage.FileProperties.ImageProperties);
-            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[19] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[6] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewWidthMode);
+            _typeTable[8] = typeof(global::System.Enum);
+            _typeTable[9] = typeof(global::System.ValueType);
+            _typeTable[10] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode);
+            _typeTable[12] = typeof(global::System.Int32);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewItem);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.ListViewItem);
+            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[21] = typeof(global::HSRApp.MainWindow);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -302,12 +312,11 @@ namespace HSRApp.HSRApp_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_RatingControl() { return new global::Microsoft.UI.Xaml.Controls.RatingControl(); }
-        private object Activate_9_RatingItemInfo() { return new global::Microsoft.UI.Xaml.Controls.RatingItemInfo(); }
-        private object Activate_11_MainWindow() { return new global::HSRApp.MainWindow(); }
-        private object Activate_13_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::HSRApp.ImageFileInfo>(); }
-        private object Activate_14_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HSRApp.ImageFileInfo>(); }
-        private object Activate_18_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_4_TabView() { return new global::Microsoft.UI.Xaml.Controls.TabView(); }
+        private object Activate_15_TabViewItem() { return new global::Microsoft.UI.Xaml.Controls.TabViewItem(); }
+        private object Activate_19_TabViewItemTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings(); }
+        private object Activate_21_MainWindow() { return new global::HSRApp.MainWindow(); }
+        private object Activate_23_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -315,19 +324,13 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_13_ObservableCollection(object instance, object item)
+        private void VectorAdd_6_IList(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::HSRApp.ImageFileInfo>)instance;
-            var newItem = (global::HSRApp.ImageFileInfo)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_14_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::HSRApp.ImageFileInfo>)instance;
-            var newItem = (global::HSRApp.ImageFileInfo)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_19_IList(object instance, object item)
+        private void VectorAdd_24_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -364,17 +367,28 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Microsoft.UI.Xaml.Controls.RatingControl
+            case 4:   //  Microsoft.UI.Xaml.Controls.TabView
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_4_RatingControl;
-                userType.AddMemberName("Value");
-                userType.AddMemberName("IsReadOnly");
-                userType.AddMemberName("Caption");
-                userType.AddMemberName("InitialSetValue");
-                userType.AddMemberName("IsClearEnabled");
-                userType.AddMemberName("ItemInfo");
-                userType.AddMemberName("MaxRating");
-                userType.AddMemberName("PlaceholderValue");
+                userType.Activator = Activate_4_TabView;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.TabView.TabItems");
+                userType.AddMemberName("TabItems");
+                userType.AddMemberName("TabWidthMode");
+                userType.AddMemberName("AddTabButtonCommand");
+                userType.AddMemberName("AddTabButtonCommandParameter");
+                userType.AddMemberName("AllowDropTabs");
+                userType.AddMemberName("CanDragTabs");
+                userType.AddMemberName("CanReorderTabs");
+                userType.AddMemberName("CloseButtonOverlayMode");
+                userType.AddMemberName("IsAddTabButtonVisible");
+                userType.AddMemberName("SelectedIndex");
+                userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("TabItemTemplate");
+                userType.AddMemberName("TabItemTemplateSelector");
+                userType.AddMemberName("TabItemsSource");
+                userType.AddMemberName("TabStripFooter");
+                userType.AddMemberName("TabStripFooterTemplate");
+                userType.AddMemberName("TabStripHeader");
+                userType.AddMemberName("TabStripHeaderTemplate");
                 xamlType = userType;
                 break;
 
@@ -382,82 +396,104 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  Double
+            case 6:   //  System.Collections.Generic.IList`1<Object>
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.CollectionAdd = VectorAdd_6_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Microsoft.UI.Xaml.Controls.TabViewWidthMode
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Equal", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.Equal);
+                userType.AddEnumValue("SizeToContent", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.SizeToContent);
+                userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.Compact);
+                xamlType = userType;
+                break;
+
+            case 8:   //  System.Enum
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 9:   //  System.ValueType
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.Windows.Input.ICommand
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 11:   //  Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.Auto);
+                userType.AddEnumValue("OnPointerOver", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.OnPointerOver);
+                userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.Always);
+                xamlType = userType;
+                break;
+
+            case 12:   //  Int32
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  String
+            case 13:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Int32
+            case 14:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  Microsoft.UI.Xaml.Controls.RatingItemInfo
+            case 15:   //  Microsoft.UI.Xaml.Controls.TabViewItem
+                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ListViewItem"));
+                userType.Activator = Activate_15_TabViewItem;
+                userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("IconSource");
+                userType.AddMemberName("IsClosable");
+                userType.AddMemberName("TabViewTemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 16:   //  Microsoft.UI.Xaml.Controls.ListViewItem
+                xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  Microsoft.UI.Xaml.Controls.ContentControl
+                xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Microsoft.UI.Xaml.Controls.IconSource
+                xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 19:   //  Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Microsoft.UI.Xaml.DependencyObject
+            case 20:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  HSRApp.MainWindow
+            case 21:   //  HSRApp.MainWindow
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_11_MainWindow;
-                userType.AddMemberName("Images");
+                userType.Activator = Activate_21_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Microsoft.UI.Xaml.Window
+            case 22:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  System.Collections.ObjectModel.ObservableCollection`1<HSRApp.ImageFileInfo>
-                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<HSRApp.ImageFileInfo>"));
-                userType.CollectionAdd = VectorAdd_13_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 14:   //  System.Collections.ObjectModel.Collection`1<HSRApp.ImageFileInfo>
-                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_14_Collection;
-                userType.CollectionAdd = VectorAdd_14_Collection;
-                xamlType = userType;
-                break;
-
-            case 15:   //  HSRApp.ImageFileInfo
-                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.AddMemberName("ImageFile");
-                userType.AddMemberName("ImageProperties");
-                userType.AddMemberName("ImageName");
-                userType.AddMemberName("ImageFileType");
-                userType.AddMemberName("ImageDimensions");
-                userType.AddMemberName("ImageTitle");
-                userType.AddMemberName("ImageRating");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 16:   //  Windows.Storage.StorageFile
-                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 17:   //  Windows.Storage.FileProperties.ImageProperties
-                userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 18:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 23:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_18_TreeViewNode;
+                userType.Activator = Activate_23_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -469,9 +505,9 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_19_IList;
+                userType.CollectionAdd = VectorAdd_24_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -544,182 +580,272 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
-        private object get_1_RatingControl_Value(object instance)
+        private object get_1_TabView_TabItems(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItems;
         }
-        private void set_1_RatingControl_Value(object instance, object Value)
+        private object get_2_TabView_TabWidthMode(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.Value = (global::System.Double)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabWidthMode;
         }
-        private object get_2_RatingControl_IsReadOnly(object instance)
+        private void set_2_TabView_TabWidthMode(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.IsReadOnly;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabWidthMode = (global::Microsoft.UI.Xaml.Controls.TabViewWidthMode)Value;
         }
-        private void set_2_RatingControl_IsReadOnly(object instance, object Value)
+        private object get_3_TabView_AddTabButtonCommand(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.IsReadOnly = (global::System.Boolean)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommand;
         }
-        private object get_3_RatingControl_Caption(object instance)
+        private void set_3_TabView_AddTabButtonCommand(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.Caption;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private void set_3_RatingControl_Caption(object instance, object Value)
+        private object get_4_TabView_AddTabButtonCommandParameter(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.Caption = (global::System.String)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommandParameter;
         }
-        private object get_4_RatingControl_InitialSetValue(object instance)
+        private void set_4_TabView_AddTabButtonCommandParameter(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.InitialSetValue;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommandParameter = (global::System.Object)Value;
         }
-        private void set_4_RatingControl_InitialSetValue(object instance, object Value)
+        private object get_5_TabView_AllowDropTabs(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.InitialSetValue = (global::System.Int32)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AllowDropTabs;
         }
-        private object get_5_RatingControl_IsClearEnabled(object instance)
+        private void set_5_TabView_AllowDropTabs(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.IsClearEnabled;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AllowDropTabs = (global::System.Boolean)Value;
         }
-        private void set_5_RatingControl_IsClearEnabled(object instance, object Value)
+        private object get_6_TabView_CanDragTabs(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.IsClearEnabled = (global::System.Boolean)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanDragTabs;
         }
-        private object get_6_RatingControl_ItemInfo(object instance)
+        private void set_6_TabView_CanDragTabs(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.ItemInfo;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanDragTabs = (global::System.Boolean)Value;
         }
-        private void set_6_RatingControl_ItemInfo(object instance, object Value)
+        private object get_7_TabView_CanReorderTabs(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.ItemInfo = (global::Microsoft.UI.Xaml.Controls.RatingItemInfo)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanReorderTabs;
         }
-        private object get_7_RatingControl_MaxRating(object instance)
+        private void set_7_TabView_CanReorderTabs(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.MaxRating;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanReorderTabs = (global::System.Boolean)Value;
         }
-        private void set_7_RatingControl_MaxRating(object instance, object Value)
+        private object get_8_TabView_CloseButtonOverlayMode(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.MaxRating = (global::System.Int32)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CloseButtonOverlayMode;
         }
-        private object get_8_RatingControl_PlaceholderValue(object instance)
+        private void set_8_TabView_CloseButtonOverlayMode(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            return that.PlaceholderValue;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CloseButtonOverlayMode = (global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode)Value;
         }
-        private void set_8_RatingControl_PlaceholderValue(object instance, object Value)
+        private object get_9_TabView_IsAddTabButtonVisible(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.RatingControl)instance;
-            that.PlaceholderValue = (global::System.Double)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.IsAddTabButtonVisible;
         }
-        private object get_9_MainWindow_Images(object instance)
+        private void set_9_TabView_IsAddTabButtonVisible(object instance, object Value)
         {
-            var that = (global::HSRApp.MainWindow)instance;
-            return that.Images;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.IsAddTabButtonVisible = (global::System.Boolean)Value;
         }
-        private object get_10_ImageFileInfo_ImageFile(object instance)
+        private object get_10_TabView_SelectedIndex(object instance)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageFile;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.SelectedIndex;
         }
-        private object get_11_ImageFileInfo_ImageProperties(object instance)
+        private void set_10_TabView_SelectedIndex(object instance, object Value)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageProperties;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.SelectedIndex = (global::System.Int32)Value;
         }
-        private object get_12_ImageFileInfo_ImageName(object instance)
+        private object get_11_TabView_SelectedItem(object instance)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageName;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.SelectedItem;
         }
-        private object get_13_ImageFileInfo_ImageFileType(object instance)
+        private void set_11_TabView_SelectedItem(object instance, object Value)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageFileType;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_14_ImageFileInfo_ImageDimensions(object instance)
+        private object get_12_TabView_TabItemTemplate(object instance)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageDimensions;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemTemplate;
         }
-        private object get_15_ImageFileInfo_ImageTitle(object instance)
+        private void set_12_TabView_TabItemTemplate(object instance, object Value)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageTitle;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private void set_15_ImageFileInfo_ImageTitle(object instance, object Value)
+        private object get_13_TabView_TabItemTemplateSelector(object instance)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            that.ImageTitle = (global::System.String)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemTemplateSelector;
         }
-        private object get_16_ImageFileInfo_ImageRating(object instance)
+        private void set_13_TabView_TabItemTemplateSelector(object instance, object Value)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            return that.ImageRating;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
         }
-        private void set_16_ImageFileInfo_ImageRating(object instance, object Value)
+        private object get_14_TabView_TabItemsSource(object instance)
         {
-            var that = (global::HSRApp.ImageFileInfo)instance;
-            that.ImageRating = (global::System.Int32)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemsSource;
         }
-        private object get_17_TreeViewNode_Children(object instance)
+        private void set_14_TabView_TabItemsSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemsSource = (global::System.Object)Value;
+        }
+        private object get_15_TabView_TabStripFooter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripFooter;
+        }
+        private void set_15_TabView_TabStripFooter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripFooter = (global::System.Object)Value;
+        }
+        private object get_16_TabView_TabStripFooterTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripFooterTemplate;
+        }
+        private void set_16_TabView_TabStripFooterTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripFooterTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_17_TabView_TabStripHeader(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripHeader;
+        }
+        private void set_17_TabView_TabStripHeader(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripHeader = (global::System.Object)Value;
+        }
+        private object get_18_TabView_TabStripHeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripHeaderTemplate;
+        }
+        private void set_18_TabView_TabStripHeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripHeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_19_TabViewItem_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.Header;
+        }
+        private void set_19_TabViewItem_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_20_TabViewItem_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_20_TabViewItem_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_21_TabViewItem_IconSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.IconSource;
+        }
+        private void set_21_TabViewItem_IconSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+        }
+        private object get_22_TabViewItem_IsClosable(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.IsClosable;
+        }
+        private void set_22_TabViewItem_IsClosable(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.IsClosable = (global::System.Boolean)Value;
+        }
+        private object get_23_TabViewItem_TabViewTemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.TabViewTemplateSettings;
+        }
+        private object get_24_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_18_TreeViewNode_Content(object instance)
+        private object get_25_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_18_TreeViewNode_Content(object instance, object Value)
+        private void set_25_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_19_TreeViewNode_Depth(object instance)
+        private object get_26_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_20_TreeViewNode_HasChildren(object instance)
+        private object get_27_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_21_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_28_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_21_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_28_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_22_TreeViewNode_IsExpanded(object instance)
+        private object get_29_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_22_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_29_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_23_TreeViewNode_Parent(object instance)
+        private object get_30_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -739,154 +865,211 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.Value":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Value", "Double");
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItems":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_1_RatingControl_Value;
-                xamlMember.Setter = set_1_RatingControl_Value;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.IsReadOnly":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsReadOnly", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_RatingControl_IsReadOnly;
-                xamlMember.Setter = set_2_RatingControl_IsReadOnly;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.Caption":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Caption", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_RatingControl_Caption;
-                xamlMember.Setter = set_3_RatingControl_Caption;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.InitialSetValue":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "InitialSetValue", "Int32");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_RatingControl_InitialSetValue;
-                xamlMember.Setter = set_4_RatingControl_InitialSetValue;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.IsClearEnabled":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsClearEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_RatingControl_IsClearEnabled;
-                xamlMember.Setter = set_5_RatingControl_IsClearEnabled;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.ItemInfo":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ItemInfo", "Microsoft.UI.Xaml.Controls.RatingItemInfo");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_RatingControl_ItemInfo;
-                xamlMember.Setter = set_6_RatingControl_ItemInfo;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.MaxRating":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "MaxRating", "Int32");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_RatingControl_MaxRating;
-                xamlMember.Setter = set_7_RatingControl_MaxRating;
-                break;
-            case "Microsoft.UI.Xaml.Controls.RatingControl.PlaceholderValue":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RatingControl");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "PlaceholderValue", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_RatingControl_PlaceholderValue;
-                xamlMember.Setter = set_8_RatingControl_PlaceholderValue;
-                break;
-            case "HSRApp.MainWindow.Images":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.MainWindow");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Images", "System.Collections.ObjectModel.ObservableCollection`1<HSRApp.ImageFileInfo>");
-                xamlMember.Getter = get_9_MainWindow_Images;
+                xamlMember.Getter = get_1_TabView_TabItems;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "HSRApp.ImageFileInfo.ImageFile":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageFile", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_10_ImageFileInfo_ImageFile;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabWidthMode":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabWidthMode", "Microsoft.UI.Xaml.Controls.TabViewWidthMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_2_TabView_TabWidthMode;
+                xamlMember.Setter = set_2_TabView_TabWidthMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommand":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AddTabButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_TabView_AddTabButtonCommand;
+                xamlMember.Setter = set_3_TabView_AddTabButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommandParameter":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AddTabButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_4_TabView_AddTabButtonCommandParameter;
+                xamlMember.Setter = set_4_TabView_AddTabButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AllowDropTabs":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AllowDropTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_5_TabView_AllowDropTabs;
+                xamlMember.Setter = set_5_TabView_AllowDropTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CanDragTabs":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CanDragTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_6_TabView_CanDragTabs;
+                xamlMember.Setter = set_6_TabView_CanDragTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CanReorderTabs":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CanReorderTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_7_TabView_CanReorderTabs;
+                xamlMember.Setter = set_7_TabView_CanReorderTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CloseButtonOverlayMode":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CloseButtonOverlayMode", "Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_TabView_CloseButtonOverlayMode;
+                xamlMember.Setter = set_8_TabView_CloseButtonOverlayMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.IsAddTabButtonVisible":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsAddTabButtonVisible", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_9_TabView_IsAddTabButtonVisible;
+                xamlMember.Setter = set_9_TabView_IsAddTabButtonVisible;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.SelectedIndex":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_10_TabView_SelectedIndex;
+                xamlMember.Setter = set_10_TabView_SelectedIndex;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.SelectedItem":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_TabView_SelectedItem;
+                xamlMember.Setter = set_11_TabView_SelectedItem;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemTemplate":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_TabView_TabItemTemplate;
+                xamlMember.Setter = set_12_TabView_TabItemTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemTemplateSelector":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_TabView_TabItemTemplateSelector;
+                xamlMember.Setter = set_13_TabView_TabItemTemplateSelector;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemsSource":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabItemsSource", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_14_TabView_TabItemsSource;
+                xamlMember.Setter = set_14_TabView_TabItemsSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripFooter":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabStripFooter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_TabView_TabStripFooter;
+                xamlMember.Setter = set_15_TabView_TabStripFooter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripFooterTemplate":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabStripFooterTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_16_TabView_TabStripFooterTemplate;
+                xamlMember.Setter = set_16_TabView_TabStripFooterTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripHeader":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabStripHeader", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_TabView_TabStripHeader;
+                xamlMember.Setter = set_17_TabView_TabStripHeader;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripHeaderTemplate":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabStripHeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_TabView_TabStripHeaderTemplate;
+                xamlMember.Setter = set_18_TabView_TabStripHeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.Header":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_TabViewItem_Header;
+                xamlMember.Setter = set_19_TabViewItem_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.HeaderTemplate":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_TabViewItem_HeaderTemplate;
+                xamlMember.Setter = set_20_TabViewItem_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.IconSource":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_TabViewItem_IconSource;
+                xamlMember.Setter = set_21_TabViewItem_IconSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.IsClosable":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsClosable", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_22_TabViewItem_IsClosable;
+                xamlMember.Setter = set_22_TabViewItem_IsClosable;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.TabViewTemplateSettings":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "TabViewTemplateSettings", "Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_23_TabViewItem_TabViewTemplateSettings;
                 xamlMember.SetIsReadOnly();
-                break;
-            case "HSRApp.ImageFileInfo.ImageProperties":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageProperties", "Windows.Storage.FileProperties.ImageProperties");
-                xamlMember.Getter = get_11_ImageFileInfo_ImageProperties;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "HSRApp.ImageFileInfo.ImageName":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageName", "String");
-                xamlMember.Getter = get_12_ImageFileInfo_ImageName;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "HSRApp.ImageFileInfo.ImageFileType":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageFileType", "String");
-                xamlMember.Getter = get_13_ImageFileInfo_ImageFileType;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "HSRApp.ImageFileInfo.ImageDimensions":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageDimensions", "String");
-                xamlMember.Getter = get_14_ImageFileInfo_ImageDimensions;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "HSRApp.ImageFileInfo.ImageTitle":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageTitle", "String");
-                xamlMember.Getter = get_15_ImageFileInfo_ImageTitle;
-                xamlMember.Setter = set_15_ImageFileInfo_ImageTitle;
-                break;
-            case "HSRApp.ImageFileInfo.ImageRating":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HSRApp.ImageFileInfo");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "ImageRating", "Int32");
-                xamlMember.Getter = get_16_ImageFileInfo_ImageRating;
-                xamlMember.Setter = set_16_ImageFileInfo_ImageRating;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_17_TreeViewNode_Children;
+                xamlMember.Getter = get_24_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_TreeViewNode_Content;
-                xamlMember.Setter = set_18_TreeViewNode_Content;
+                xamlMember.Getter = get_25_TreeViewNode_Content;
+                xamlMember.Setter = set_25_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_TreeViewNode_Depth;
+                xamlMember.Getter = get_26_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_27_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_21_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_21_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_28_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_28_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_22_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_29_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_29_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_23_TreeViewNode_Parent;
+                xamlMember.Getter = get_30_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

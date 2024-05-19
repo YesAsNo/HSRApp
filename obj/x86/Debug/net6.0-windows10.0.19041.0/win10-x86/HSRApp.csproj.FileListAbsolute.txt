@@ -240,7 +240,6 @@ C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\hostfxr.dll
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\hostpolicy.dll
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\mscordaccore.dll
-C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\mscordaccore_x86_x86_6.0.2924.17105.dll
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\mscordbi.dll
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\mscorrc.dll
 C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\msquic.dll
@@ -285,3 +284,4 @@ C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10
 C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\qualifiers.txt.intermediate
 C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\MultipleQualifiersPerDimensionFound.txt
 C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ProjectArchitectures.txt
+C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\mscordaccore_x86_x86_6.0.3024.21525.dll
