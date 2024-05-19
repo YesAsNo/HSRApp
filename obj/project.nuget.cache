@@ -1,21 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "CS/e5Nv51U37T4yCySOJeJxmnI0L/eptUCRmbjgBFugdbnxsSdKwnActWdc3ayzv/F6gcf+ggj+a3MVVuJTbaQ==",
+  "dgSpecHash": "d1SrCLWcSP25IcemtMVtuL0249Y8yDV2hsssRp1W94ViaA6V14h0pYTcoslZciW7Wj6YXrrXMcklnW+1mMlvjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\HSRApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsappsdk\\1.4.230913002\\microsoft.windowsappsdk.1.4.230913002.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.29\\microsoft.netcore.app.runtime.win-x86.6.0.29.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.30\\microsoft.netcore.app.runtime.win-x86.6.0.30.nupkg.sha512",
     "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.29\\microsoft.aspnetcore.app.runtime.win-x86.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.29\\microsoft.netcore.app.runtime.win-arm64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.29\\microsoft.aspnetcore.app.runtime.win-x64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.29\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.29\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.29\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.29\\microsoft.netcore.app.runtime.win-x64.6.0.29.nupkg.sha512",
-    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.29\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.29.nupkg.sha512"
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.30\\microsoft.aspnetcore.app.runtime.win-x86.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\6.0.30\\microsoft.netcore.app.host.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.30\\microsoft.netcore.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.30\\microsoft.aspnetcore.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.30\\microsoft.netcore.app.host.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.30\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.30\\microsoft.netcore.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.30.nupkg.sha512",
+    "C:\\Users\\sanna\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\6.0.30\\microsoft.netcore.app.host.win-x86.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }
