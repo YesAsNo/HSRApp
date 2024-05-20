@@ -15,22 +15,27 @@
         <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent">
             <TabView.Resources>
                 <Style TargetType="TabViewItem">
+                    <Setter Property="MinWidth" Value="130"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="TabViewItem">
-                                <Border Name="Borderuwu" BorderThickness="50,10,50,10" BorderBrush="DarkRed" CornerRadius="0">
-                                    <ContentPresenter x:Name="Name" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Header"/>
+                                <Border Name="Borderuwu" BorderThickness="15, 10, 15, 10" BorderBrush="#f4ebfb" CornerRadius="1">
+                                    <Grid Background="#f4ebfb">
+                                        <ContentPresenter x:Name="HeaderName" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                            <TextBlock Text="{TemplateBinding Header}" FontFamily="Arial" FontSize="14" FontWeight="Bold" Foreground="Black"/>
+                                        </ContentPresenter>
+                                    </Grid>
                                 </Border>
-                               
+
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
                 </Style>
             </TabView.Resources>
-            <TabViewItem Header="Welcome"></TabViewItem>
-            <TabViewItem Header="Characters"></TabViewItem>
-            <TabViewItem Header="Lightcones"></TabViewItem>
-            <TabViewItem Header="Materials"></TabViewItem>
+            <TabViewItem x:Name="WelcomeTab" Header="Welcome"></TabViewItem>
+            <TabViewItem x:Name="CharactersTab" Header="Characters"></TabViewItem>
+            <TabViewItem x:Name="LightconesTab" Header="Lightcones"></TabViewItem>
+            <TabViewItem x:Name="MaterialsTab" Header="Materials"></TabViewItem>
         </TabView>
     </Grid>
 

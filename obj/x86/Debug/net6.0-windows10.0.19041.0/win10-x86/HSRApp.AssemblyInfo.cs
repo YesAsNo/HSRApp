@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HSRApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c53aaf770db52868181232e93659046f97f3a75c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+479d03d9d5b91a09ede677f6afdd7d59fda7baf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HSRApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HSRApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
