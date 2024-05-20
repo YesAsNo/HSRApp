@@ -14,9 +14,9 @@
             <FontFamily x:Key="HeaderFont">/Assets/Fonts/Stupid Meeting_D.otf#Stupid Meeting</FontFamily>
             <FontFamily x:Key="TestFont">/Assets/Fonts/BlowMePersonalUseRegular-g105.ttf#BLOW ME</FontFamily>
         </Grid.Resources>
-        <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent">
+        <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent" IsAddTabButtonVisible="False">
             <TabView.Resources>
-                <Style TargetType="TabViewItem">
+                <Style TargetType="TabViewItem" x:Key="NormalTabs">
                     <Setter Property="MinWidth" Value="130"/>
                     <Setter Property="Template">
                         <Setter.Value>
@@ -33,13 +33,27 @@
                         </Setter.Value>
                     </Setter>
                 </Style>
+                <Style TargetType="TabViewItem" x:Key="AddButtonStyle">
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Width" Value="30"/>
+                    <Setter Property="Height" Value="25"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Grid Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
             </TabView.Resources>
-            <TabViewItem x:Name="WelcomeTab" Header="Welcome"></TabViewItem>
-            <TabViewItem x:Name="CharactersTab" Header="Characters"></TabViewItem>
-            <TabViewItem x:Name="LightconesTab" Header="Lightcones"></TabViewItem>
-            <TabViewItem x:Name="MaterialsTab" Header="Materials"></TabViewItem>
+            <TabViewItem x:Name="WelcomeTab" Header="Welcome" Style="{StaticResource NormalTabs}"></TabViewItem>
+            <TabViewItem x:Name="CharactersTab" Header="Characters" Style="{StaticResource NormalTabs}"></TabViewItem>
+            <TabViewItem x:Name="LightconesTab" Header="Lightcones" Style="{StaticResource NormalTabs}"></TabViewItem>
+            <TabViewItem x:Name="MaterialsTab" Header="Materials" Style="{StaticResource NormalTabs}"></TabViewItem>
+            <TabViewItem x:Name="AddNewTabButton" Header="+" Style="{StaticResource AddButtonStyle}"></TabViewItem>
         </TabView>
     </Grid>
-
 </Window>
 

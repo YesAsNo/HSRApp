@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-20T16:49:27.403</Modified>
+      <Modified>2024-05-20T20:20:14.360</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-20T16:49:27.218</Modified>
+      <Modified>2024-05-20T20:18:54.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.runtimeconfig.json">
       <PackagePath>HSRApp.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.dll">
       <PackagePath>HSRApp.dll</PackagePath>
-      <Modified>2024-05-20T16:49:27.127</Modified>
+      <Modified>2024-05-20T20:20:13.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\YatraOne-Regular.ttf">
       <PackagePath>Assets\Fonts\YatraOne-Regular.ttf</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>HSRApp.exe</PackagePath>
-      <Modified>2024-05-20T16:49:27.130</Modified>
+      <Modified>2024-05-20T20:20:13.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.deps.json">
       <PackagePath>HSRApp.deps.json</PackagePath>

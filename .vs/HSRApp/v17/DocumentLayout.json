@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -53,19 +53,21 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T16:26:12.769Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAuwCUAAAAtAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAApwCAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T19:24:19.848Z"
+              "WhenOpened": "2024-05-19T19:24:19.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +77,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBsAAAA7AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-13T17:22:10.377Z",
               "EditorCaption": ""

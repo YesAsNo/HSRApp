@@ -224,7 +224,7 @@ namespace HSRApp.HSRApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[25];
+            _typeNameTable = new string[26];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -246,12 +246,13 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.IconSource";
             _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings";
             _typeNameTable[20] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[21] = "HSRApp.MainWindow";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.Button";
+            _typeNameTable[22] = "HSRApp.MainWindow";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[25] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[25];
+            _typeTable = new global::System.Type[26];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -273,10 +274,11 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
             _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings);
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[21] = typeof(global::HSRApp.MainWindow);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.Button);
+            _typeTable[22] = typeof(global::HSRApp.MainWindow);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[25] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -315,8 +317,8 @@ namespace HSRApp.HSRApp_XamlTypeInfo
         private object Activate_4_TabView() { return new global::Microsoft.UI.Xaml.Controls.TabView(); }
         private object Activate_15_TabViewItem() { return new global::Microsoft.UI.Xaml.Controls.TabViewItem(); }
         private object Activate_19_TabViewItemTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings(); }
-        private object Activate_21_MainWindow() { return new global::HSRApp.MainWindow(); }
-        private object Activate_23_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_22_MainWindow() { return new global::HSRApp.MainWindow(); }
+        private object Activate_24_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -330,7 +332,7 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_24_IList(object instance, object item)
+        private void VectorAdd_25_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -373,13 +375,13 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.TabView.TabItems");
                 userType.AddMemberName("TabItems");
                 userType.AddMemberName("TabWidthMode");
+                userType.AddMemberName("IsAddTabButtonVisible");
                 userType.AddMemberName("AddTabButtonCommand");
                 userType.AddMemberName("AddTabButtonCommandParameter");
                 userType.AddMemberName("AllowDropTabs");
                 userType.AddMemberName("CanDragTabs");
                 userType.AddMemberName("CanReorderTabs");
                 userType.AddMemberName("CloseButtonOverlayMode");
-                userType.AddMemberName("IsAddTabButtonVisible");
                 userType.AddMemberName("SelectedIndex");
                 userType.AddMemberName("SelectedItem");
                 userType.AddMemberName("TabItemTemplate");
@@ -480,20 +482,24 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  HSRApp.MainWindow
+            case 21:   //  Microsoft.UI.Xaml.Controls.Button
+                xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  HSRApp.MainWindow
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_21_MainWindow;
+                userType.Activator = Activate_22_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Window
+            case 23:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 24:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_23_TreeViewNode;
+                userType.Activator = Activate_24_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -505,9 +511,9 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 25:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_24_IList;
+                userType.CollectionAdd = VectorAdd_25_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -595,75 +601,75 @@ namespace HSRApp.HSRApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
             that.TabWidthMode = (global::Microsoft.UI.Xaml.Controls.TabViewWidthMode)Value;
         }
-        private object get_3_TabView_AddTabButtonCommand(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.AddTabButtonCommand;
-        }
-        private void set_3_TabView_AddTabButtonCommand(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.AddTabButtonCommand = (global::System.Windows.Input.ICommand)Value;
-        }
-        private object get_4_TabView_AddTabButtonCommandParameter(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.AddTabButtonCommandParameter;
-        }
-        private void set_4_TabView_AddTabButtonCommandParameter(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.AddTabButtonCommandParameter = (global::System.Object)Value;
-        }
-        private object get_5_TabView_AllowDropTabs(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.AllowDropTabs;
-        }
-        private void set_5_TabView_AllowDropTabs(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.AllowDropTabs = (global::System.Boolean)Value;
-        }
-        private object get_6_TabView_CanDragTabs(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.CanDragTabs;
-        }
-        private void set_6_TabView_CanDragTabs(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.CanDragTabs = (global::System.Boolean)Value;
-        }
-        private object get_7_TabView_CanReorderTabs(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.CanReorderTabs;
-        }
-        private void set_7_TabView_CanReorderTabs(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.CanReorderTabs = (global::System.Boolean)Value;
-        }
-        private object get_8_TabView_CloseButtonOverlayMode(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            return that.CloseButtonOverlayMode;
-        }
-        private void set_8_TabView_CloseButtonOverlayMode(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
-            that.CloseButtonOverlayMode = (global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode)Value;
-        }
-        private object get_9_TabView_IsAddTabButtonVisible(object instance)
+        private object get_3_TabView_IsAddTabButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
             return that.IsAddTabButtonVisible;
         }
-        private void set_9_TabView_IsAddTabButtonVisible(object instance, object Value)
+        private void set_3_TabView_IsAddTabButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
             that.IsAddTabButtonVisible = (global::System.Boolean)Value;
+        }
+        private object get_4_TabView_AddTabButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommand;
+        }
+        private void set_4_TabView_AddTabButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_5_TabView_AddTabButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommandParameter;
+        }
+        private void set_5_TabView_AddTabButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_6_TabView_AllowDropTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AllowDropTabs;
+        }
+        private void set_6_TabView_AllowDropTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AllowDropTabs = (global::System.Boolean)Value;
+        }
+        private object get_7_TabView_CanDragTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanDragTabs;
+        }
+        private void set_7_TabView_CanDragTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanDragTabs = (global::System.Boolean)Value;
+        }
+        private object get_8_TabView_CanReorderTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanReorderTabs;
+        }
+        private void set_8_TabView_CanReorderTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanReorderTabs = (global::System.Boolean)Value;
+        }
+        private object get_9_TabView_CloseButtonOverlayMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CloseButtonOverlayMode;
+        }
+        private void set_9_TabView_CloseButtonOverlayMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CloseButtonOverlayMode = (global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode)Value;
         }
         private object get_10_TabView_SelectedIndex(object instance)
         {
@@ -879,54 +885,54 @@ namespace HSRApp.HSRApp_XamlTypeInfo
                 xamlMember.Getter = get_2_TabView_TabWidthMode;
                 xamlMember.Setter = set_2_TabView_TabWidthMode;
                 break;
+            case "Microsoft.UI.Xaml.Controls.TabView.IsAddTabButtonVisible":
+                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsAddTabButtonVisible", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_TabView_IsAddTabButtonVisible;
+                xamlMember.Setter = set_3_TabView_IsAddTabButtonVisible;
+                break;
             case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommand":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AddTabButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_TabView_AddTabButtonCommand;
-                xamlMember.Setter = set_3_TabView_AddTabButtonCommand;
+                xamlMember.Getter = get_4_TabView_AddTabButtonCommand;
+                xamlMember.Setter = set_4_TabView_AddTabButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommandParameter":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AddTabButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_TabView_AddTabButtonCommandParameter;
-                xamlMember.Setter = set_4_TabView_AddTabButtonCommandParameter;
+                xamlMember.Getter = get_5_TabView_AddTabButtonCommandParameter;
+                xamlMember.Setter = set_5_TabView_AddTabButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.AllowDropTabs":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "AllowDropTabs", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_TabView_AllowDropTabs;
-                xamlMember.Setter = set_5_TabView_AllowDropTabs;
+                xamlMember.Getter = get_6_TabView_AllowDropTabs;
+                xamlMember.Setter = set_6_TabView_AllowDropTabs;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.CanDragTabs":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CanDragTabs", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_TabView_CanDragTabs;
-                xamlMember.Setter = set_6_TabView_CanDragTabs;
+                xamlMember.Getter = get_7_TabView_CanDragTabs;
+                xamlMember.Setter = set_7_TabView_CanDragTabs;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.CanReorderTabs":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CanReorderTabs", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_TabView_CanReorderTabs;
-                xamlMember.Setter = set_7_TabView_CanReorderTabs;
+                xamlMember.Getter = get_8_TabView_CanReorderTabs;
+                xamlMember.Setter = set_8_TabView_CanReorderTabs;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.CloseButtonOverlayMode":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
                 xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "CloseButtonOverlayMode", "Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_TabView_CloseButtonOverlayMode;
-                xamlMember.Setter = set_8_TabView_CloseButtonOverlayMode;
-                break;
-            case "Microsoft.UI.Xaml.Controls.TabView.IsAddTabButtonVisible":
-                userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
-                xamlMember = new global::HSRApp.HSRApp_XamlTypeInfo.XamlMember(this, "IsAddTabButtonVisible", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_TabView_IsAddTabButtonVisible;
-                xamlMember.Setter = set_9_TabView_IsAddTabButtonVisible;
+                xamlMember.Getter = get_9_TabView_CloseButtonOverlayMode;
+                xamlMember.Setter = set_9_TabView_CloseButtonOverlayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.TabView.SelectedIndex":
                 userType = (global::HSRApp.HSRApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
