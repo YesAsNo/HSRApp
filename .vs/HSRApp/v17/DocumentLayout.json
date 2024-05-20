@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\anwender\\desktop\\programmierung\\workspace\\hsrapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\anwender\\desktop\\programmierung\\workspace\\hsrapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|c:\\users\\sanna\\documents\\personal projects\\hsrapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7722FE5A-939E-41B1-B2EE-73F81A549C70}|HSRApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T16:26:01.553Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:26:12.769Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAApwCAAAAAMAAAA",
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs",
+              "RelativeToolTip": "obj\\x86\\Debug\\net6.0-windows10.0.19041.0\\win10-x86\\App.g.i.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAiwEkAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T19:24:19.848Z",
+              "WhenOpened": "2024-05-20T21:02:01.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\sanna\\Documents\\Personal Projects\\HSRApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T17:22:10.377Z",
+              "WhenOpened": "2024-05-20T20:34:15.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Desktop\\Programmierung\\workspace\\HSRApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:34:13.399Z",
               "EditorCaption": ""
             }
           ]

@@ -13,6 +13,7 @@
         <Grid.Resources>
             <FontFamily x:Key="HeaderFont">/Assets/Fonts/Stupid Meeting_D.otf#Stupid Meeting</FontFamily>
             <FontFamily x:Key="TestFont">/Assets/Fonts/BlowMePersonalUseRegular-g105.ttf#BLOW ME</FontFamily>
+            <ImageIcon x:Key="CloseTabIcon" Source="/Assets/StoreLogo.png"/>
         </Grid.Resources>
         <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent" IsAddTabButtonVisible="False">
             <TabView.Resources>
@@ -24,7 +25,14 @@
                                 <Border Name="Borderuwu" BorderThickness="15, 10, 15, 10" BorderBrush="#f4ebfb" CornerRadius="1">
                                     <Grid Background="#f4ebfb">
                                         <ContentPresenter x:Name="HeaderName" VerticalAlignment="Center" HorizontalAlignment="Center">
-                                            <TextBlock Text="{TemplateBinding Header}" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{TemplateBinding Header}" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
+                                                <Button>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="/Assets/StoreLogo.png"/>
+                                                    </StackPanel>
+                                                </Button>
+                                            </StackPanel>
                                         </ContentPresenter>
                                     </Grid>
                                 </Border>
@@ -34,15 +42,21 @@
                     </Setter>
                 </Style>
                 <Style TargetType="TabViewItem" x:Key="AddButtonStyle">
-                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Background" Value="#f4ebfb"/>
                     <Setter Property="Width" Value="30"/>
                     <Setter Property="Height" Value="25"/>
                     <Setter Property="Template">
                         <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Grid Background="{TemplateBinding Background}">
-                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                </Grid>
+                            <ControlTemplate TargetType="TabViewItem">
+                                <Border Name="Borderuwu" BorderThickness="1" BorderBrush="#f4ebfb" CornerRadius="1">
+                                    <Grid>
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <Button FontWeight="Bold" Foreground="Black">
+                                            Click
+                                            </Button>
+                                        </ContentPresenter>
+                                    </Grid>
+                                </Border>
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
