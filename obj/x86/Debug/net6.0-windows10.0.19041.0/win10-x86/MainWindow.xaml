@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window
     x:Class="HSRApp.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -14,7 +14,7 @@
             <FontFamily x:Key="HeaderFont">/Assets/Fonts/Stupid Meeting_D.otf#Stupid Meeting</FontFamily>
             <FontFamily x:Key="TestFont">/Assets/Fonts/BlowMePersonalUseRegular-g105.ttf#BLOW ME</FontFamily>
         </Grid.Resources>
-        <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent">
+        <TabView x:ConnectionId='2'                              TabWidthMode="SizeToContent">
             <TabView.Resources>
                 <Style TargetType="TabViewItem">
                     <Setter Property="MinWidth" Value="130"/>
@@ -34,12 +34,13 @@
                     </Setter>
                 </Style>
             </TabView.Resources>
-            <TabViewItem x:Name="WelcomeTab" Header="Welcome"></TabViewItem>
-            <TabViewItem x:Name="CharactersTab" Header="Characters"></TabViewItem>
-            <TabViewItem x:Name="LightconesTab" Header="Lightcones"></TabViewItem>
-            <TabViewItem x:Name="MaterialsTab" Header="Materials"></TabViewItem>
+            <TabViewItem x:ConnectionId='6' x:Name="WelcomeTab" Header="Welcome"></TabViewItem>
+            <TabViewItem x:ConnectionId='7' x:Name="CharactersTab" Header="Characters"></TabViewItem>
+            <TabViewItem x:ConnectionId='8' x:Name="LightconesTab" Header="Lightcones"></TabViewItem>
+            <TabViewItem x:ConnectionId='9' x:Name="MaterialsTab" Header="Materials"></TabViewItem>
         </TabView>
     </Grid>
 
 </Window>
+
 

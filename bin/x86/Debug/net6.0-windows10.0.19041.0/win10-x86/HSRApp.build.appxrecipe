@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.dll">
       <PackagePath>HSRApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\YatraOne-Regular.ttf">
+      <PackagePath>Assets\Fonts\YatraOne-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>HSRApp.exe</PackagePath>
     </AppxPackagedFile>
@@ -759,6 +762,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\Stupid Meeting_D.otf">
+      <PackagePath>Assets\Fonts\Stupid Meeting_D.otf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
