@@ -1,1 +1,1 @@
-C:\Users\Anwender\Desktop\Programmierung\workspace\HSRApp\HSRApp.csproj;x86
+C:\Users\sanna\Documents\Personal Projects\HSRApp\HSRApp.csproj;x86

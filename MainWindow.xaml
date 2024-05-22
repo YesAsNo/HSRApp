@@ -27,36 +27,31 @@
                                         <ContentPresenter x:Name="HeaderName" VerticalAlignment="Center" HorizontalAlignment="Center">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="{TemplateBinding Header}" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
-                                                <Button>
-                                                    <StackPanel Orientation="Horizontal">
-                                                        <Image Source="/Assets/StoreLogo.png"/>
-                                                    </StackPanel>
+                                                <Button Padding="6,0,6,0" Margin="6,0,0,0">
+                                                    <TextBlock Text="X" Padding="2,0,2,0" FontWeight="Bold" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
                                                 </Button>
                                             </StackPanel>
                                         </ContentPresenter>
                                     </Grid>
                                 </Border>
-
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
                 </Style>
                 <Style TargetType="TabViewItem" x:Key="AddButtonStyle">
                     <Setter Property="Background" Value="#f4ebfb"/>
-                    <Setter Property="Width" Value="30"/>
-                    <Setter Property="Height" Value="25"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="TabViewItem">
-                                <Border Name="Borderuwu" BorderThickness="1" BorderBrush="#f4ebfb" CornerRadius="1">
+                                
                                     <Grid>
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <Button FontWeight="Bold" Foreground="Black">
-                                            Click
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                                            <Button Padding="10,2,10,7" Margin="6,0,0,6" FontWeight="Bold" FontSize="20" Foreground="#1e032d">
+                                                +
                                             </Button>
                                         </ContentPresenter>
                                     </Grid>
-                                </Border>
+                                
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
@@ -66,7 +61,10 @@
             <TabViewItem x:Name="CharactersTab" Header="Characters" Style="{StaticResource NormalTabs}"></TabViewItem>
             <TabViewItem x:Name="LightconesTab" Header="Lightcones" Style="{StaticResource NormalTabs}"></TabViewItem>
             <TabViewItem x:Name="MaterialsTab" Header="Materials" Style="{StaticResource NormalTabs}"></TabViewItem>
-            <TabViewItem x:Name="AddNewTabButton" Header="+" Style="{StaticResource AddButtonStyle}"></TabViewItem>
+
+            <TabView.TabStripHeader>
+                <TabViewItem x:Name="AddNewTabButton" Header="+" Style="{StaticResource AddButtonStyle}"></TabViewItem>
+            </TabView.TabStripHeader>
         </TabView>
     </Grid>
 </Window>

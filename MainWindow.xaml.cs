@@ -37,5 +37,6 @@ namespace HSRApp
         {
             sender.TabItems.Remove(args.Tab);
         }
+
     }
 }
