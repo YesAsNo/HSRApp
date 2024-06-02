@@ -766,8 +766,59 @@
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\Stupid Meeting_D.otf">
       <PackagePath>Assets\Fonts\Stupid Meeting_D.otf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Acheron.png">
-      <PackagePath>Assets\Images\Characters\Acheron.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Aventurine.png">
+      <PackagePath>Assets\Images\Characters\Aventurine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Blade.png">
+      <PackagePath>Assets\Images\Characters\Blade.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Bronya.png">
+      <PackagePath>Assets\Images\Characters\Bronya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Dan Heng.png">
+      <PackagePath>Assets\Images\Characters\Dan Heng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Dr. Ratio.png">
+      <PackagePath>Assets\Images\Characters\Dr. Ratio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Fu Xuan.png">
+      <PackagePath>Assets\Images\Characters\Fu Xuan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Gepard.png">
+      <PackagePath>Assets\Images\Characters\Gepard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Himeko.png">
+      <PackagePath>Assets\Images\Characters\Himeko.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Jing Yuan.png">
+      <PackagePath>Assets\Images\Characters\Jing Yuan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Jingliu.png">
+      <PackagePath>Assets\Images\Characters\Jingliu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Kafka.png">
+      <PackagePath>Assets\Images\Characters\Kafka.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\March 7th.png">
+      <PackagePath>Assets\Images\Characters\March 7th.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Ruan Mei.png">
+      <PackagePath>Assets\Images\Characters\Ruan Mei.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Sampo.png">
+      <PackagePath>Assets\Images\Characters\Sampo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Sparkle.png">
+      <PackagePath>Assets\Images\Characters\Sparkle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Topaz.png">
+      <PackagePath>Assets\Images\Characters\Topaz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Welt.png">
+      <PackagePath>Assets\Images\Characters\Welt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Yanqing.png">
+      <PackagePath>Assets\Images\Characters\Yanqing.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

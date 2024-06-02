@@ -15,57 +15,68 @@
             <FontFamily x:Key="TestFont">/Assets/Fonts/BlowMePersonalUseRegular-g105.ttf#BLOW ME</FontFamily>
             <ImageIcon x:Key="CloseTabIcon" Source="/Assets/StoreLogo.png"/>
         </Grid.Resources>
-        <TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent" IsAddTabButtonVisible="False">
-            <TabView.Resources>
-                <Style TargetType="TabViewItem" x:Key="NormalTabs">
-                    <Setter Property="MinWidth" Value="130"/>
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="TabViewItem">
-                                <Border Name="Borderuwu" BorderThickness="15, 10, 15, 10" BorderBrush="#f4ebfb" CornerRadius="1">
-                                    <Grid Background="#f4ebfb">
-                                        <ContentPresenter x:Name="HeaderName" VerticalAlignment="Center" HorizontalAlignment="Center">
-                                            <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="{TemplateBinding Header}" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
-                                                <Button Padding="6,0,6,0" Margin="6,0,0,0">
-                                                    <TextBlock Text="X" Padding="2,0,2,0" FontWeight="Bold" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
-                                                </Button>
-                                            </StackPanel>
-                                        </ContentPresenter>
-                                    </Grid>
-                                </Border>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-                <Style TargetType="TabViewItem" x:Key="AddButtonStyle">
-                    <Setter Property="Background" Value="#f4ebfb"/>
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="TabViewItem">
-                                
-                                    <Grid>
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom">
-                                            <Button Padding="10,2,10,7" Margin="6,0,0,6" FontWeight="Bold" FontSize="20" Foreground="#1e032d">
-                                                +
-                                            </Button>
-                                        </ContentPresenter>
-                                    </Grid>
-                                
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </TabView.Resources>
-            <TabViewItem x:Name="WelcomeTab" Header="Welcome" Style="{StaticResource NormalTabs}"></TabViewItem>
-            <TabViewItem x:Name="CharactersTab" Header="Characters" Style="{StaticResource NormalTabs}"></TabViewItem>
-            <TabViewItem x:Name="LightconesTab" Header="Lightcones" Style="{StaticResource NormalTabs}"></TabViewItem>
-            <TabViewItem x:Name="MaterialsTab" Header="Materials" Style="{StaticResource NormalTabs}"></TabViewItem>
-
-            <TabView.TabStripHeader>
-                <TabViewItem x:Name="AddNewTabButton" Header="+" Style="{StaticResource AddButtonStyle}"></TabViewItem>
-            </TabView.TabStripHeader>
-        </TabView>
+        <NavigationView x:Name="MainView" OpenPaneLength="150" IsBackButtonVisible="Collapsed" SelectionChanged="MainView_SelectionChanged">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Contact" Content="Welcome" Tag="Welcome">
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Contact" Content="Materials" Tag="Materials" />
+                <NavigationViewItem Icon="Contact" Content="Characters" Tag="Characters" />
+            </NavigationView.MenuItems>
+            <Frame x:Name="ContentFrame"/>
+        </NavigationView>
     </Grid>
 </Window>
+    <!--
+    <TabViewItem x:Name="WelcomeTab" Header="Welcome" Style="{StaticResource NormalTabs}"></TabViewItem>
+    <TabViewItem x:Name="CharactersTab" Header="Characters" Style="{StaticResource NormalTabs}"></TabViewItem>
+    <TabViewItem x:Name="LightconesTab" Header="Lightcones" Style="{StaticResource NormalTabs}"></TabViewItem>
+    <TabViewItem x:Name="MaterialsTab" Header="Materials" Style="{StaticResource NormalTabs}"></TabViewItem>
+    <TabView.TabStripHeader>
+        <TabViewItem x:Name="AddNewTabButton" Header="+" Style="{StaticResource AddButtonStyle}"></TabViewItem>
+        </TabView.TabStripHeader>
+    
+<TabView TabCloseRequested="CloseTab" TabWidthMode="SizeToContent" IsAddTabButtonVisible="False">
+    <TabView.Resources>
+        <Style TargetType="TabViewItem" x:Key="NormalTabs">
+            <Setter Property="MinWidth" Value="130"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabViewItem">
+                        <Border Name="Borderuwu" BorderThickness="15, 10, 15, 10" BorderBrush="#f4ebfb" CornerRadius="1">
+                            <Grid Background="#f4ebfb">
+                                <ContentPresenter x:Name="HeaderName" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{TemplateBinding Header}" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
+                                        <Button Padding="6,0,6,0" Margin="6,0,0,0">
+                                            <TextBlock Text="X" Padding="2,0,2,0" FontWeight="Bold" FontFamily="{StaticResource HeaderFont}" FontSize="20" Foreground="#1e032d"/>
+                                        </Button>
+                                    </StackPanel>
+                                </ContentPresenter>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="TabViewItem" x:Key="AddButtonStyle">
+            <Setter Property="Background" Value="#f4ebfb"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabViewItem">
+
+                        <Grid>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                                <Button Padding="10,2,10,7" Margin="6,0,0,6" FontWeight="Bold" FontSize="20" Foreground="#1e032d">
+                                    +
+                                </Button>
+                            </ContentPresenter>
+                        </Grid>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </TabView.Resources>
+</TabView>
+    -->
 

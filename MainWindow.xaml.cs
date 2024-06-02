@@ -23,9 +23,6 @@ using Windows.Storage.Search;
 
 namespace HSRApp
 {
-    /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainWindow : Window
     {
         public MainWindow()
@@ -33,10 +30,19 @@ namespace HSRApp
             this.InitializeComponent();
         }
 
-        private void CloseTab(TabView sender, TabViewTabCloseRequestedEventArgs args)
+        private void MainView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
-            sender.TabItems.Remove(args.Tab);
+            var selectedItem = args.SelectedItem as NavigationViewItem;
+            if (selectedItem != null)
+            {
+                string tag = selectedItem.Tag.ToString();
+                switch (tag)
+                {
+                    case "Welcome":
+                        ContentFrame.Navigate(typeof(WelcomePage));
+                        break;
+                }
+            }
         }
-
     }
 }

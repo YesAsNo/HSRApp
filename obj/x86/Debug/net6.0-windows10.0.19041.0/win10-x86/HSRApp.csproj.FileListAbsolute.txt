@@ -574,3 +574,8 @@ C:\Users\Anwender\Desktop\Programmierung\workspace\HSRApp\obj\x86\Debug\net6.0-w
 C:\Users\Anwender\Desktop\Programmierung\workspace\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\qualifiers.txt.intermediate
 C:\Users\Anwender\Desktop\Programmierung\workspace\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Anwender\Desktop\Programmierung\workspace\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ProjectArchitectures.txt
+C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\WelcomePage.g.i.cs
+C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\WelcomePage.g.cs
+C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\WelcomePage.xaml
+C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\WelcomePage.xbf
+C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\WelcomePage.xbf

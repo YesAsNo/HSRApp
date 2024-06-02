@@ -29,33 +29,33 @@
     <AppXManifest Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-22T19:31:35.753</Modified>
+      <Modified>2024-06-02T15:18:59.902</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-22T19:31:35.519</Modified>
+      <Modified>2024-06-02T15:18:59.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.runtimeconfig.json">
       <PackagePath>HSRApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-22T18:32:27.432</Modified>
+      <Modified>2024-05-31T19:01:07.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.dll">
       <PackagePath>HSRApp.dll</PackagePath>
-      <Modified>2024-05-22T19:31:35.395</Modified>
+      <Modified>2024-06-02T15:18:59.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\YatraOne-Regular.ttf">
       <PackagePath>Assets\Fonts\YatraOne-Regular.ttf</PackagePath>
-      <Modified>2024-05-20T15:46:16.152</Modified>
+      <Modified>2024-05-31T19:00:02.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>HSRApp.exe</PackagePath>
-      <Modified>2024-05-22T19:31:35.400</Modified>
+      <Modified>2024-06-02T15:18:59.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\HSRApp.deps.json">
       <PackagePath>HSRApp.deps.json</PackagePath>
-      <Modified>2024-05-22T18:32:27.269</Modified>
+      <Modified>2024-06-02T15:08:04.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.30\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1019,39 +1019,107 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Fonts\Stupid Meeting_D.otf">
       <PackagePath>Assets\Fonts\Stupid Meeting_D.otf</PackagePath>
-      <Modified>2024-05-20T16:40:47.003</Modified>
+      <Modified>2024-05-31T19:00:02.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Acheron.png">
-      <PackagePath>Assets\Images\Characters\Acheron.png</PackagePath>
-      <Modified>2024-05-22T19:24:48.684</Modified>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Aventurine.png">
+      <PackagePath>Assets\Images\Characters\Aventurine.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Blade.png">
+      <PackagePath>Assets\Images\Characters\Blade.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Bronya.png">
+      <PackagePath>Assets\Images\Characters\Bronya.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Dan Heng.png">
+      <PackagePath>Assets\Images\Characters\Dan Heng.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Dr. Ratio.png">
+      <PackagePath>Assets\Images\Characters\Dr. Ratio.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Fu Xuan.png">
+      <PackagePath>Assets\Images\Characters\Fu Xuan.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Gepard.png">
+      <PackagePath>Assets\Images\Characters\Gepard.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Himeko.png">
+      <PackagePath>Assets\Images\Characters\Himeko.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Jing Yuan.png">
+      <PackagePath>Assets\Images\Characters\Jing Yuan.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Jingliu.png">
+      <PackagePath>Assets\Images\Characters\Jingliu.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Kafka.png">
+      <PackagePath>Assets\Images\Characters\Kafka.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\March 7th.png">
+      <PackagePath>Assets\Images\Characters\March 7th.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Ruan Mei.png">
+      <PackagePath>Assets\Images\Characters\Ruan Mei.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Sampo.png">
+      <PackagePath>Assets\Images\Characters\Sampo.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Sparkle.png">
+      <PackagePath>Assets\Images\Characters\Sparkle.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Topaz.png">
+      <PackagePath>Assets\Images\Characters\Topaz.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Welt.png">
+      <PackagePath>Assets\Images\Characters\Welt.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Images\Characters\Yanqing.png">
+      <PackagePath>Assets\Images\Characters\Yanqing.png</PackagePath>
+      <Modified>2024-05-31T19:00:02.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.241</Modified>
+      <Modified>2024-05-31T19:00:02.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.241</Modified>
+      <Modified>2024-05-31T19:00:02.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.242</Modified>
+      <Modified>2024-05-31T19:00:02.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.243</Modified>
+      <Modified>2024-05-31T19:00:02.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.243</Modified>
+      <Modified>2024-05-31T19:00:02.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.244</Modified>
+      <Modified>2024-05-31T19:00:02.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sanna\Documents\Personal Projects\HSRApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-05-13T16:09:55.244</Modified>
+      <Modified>2024-05-31T19:00:02.620</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
